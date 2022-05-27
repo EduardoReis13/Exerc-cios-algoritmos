@@ -3,9 +3,9 @@
 main()
 {
 	
-int x,y,soma;//Declaração de variaveis
+int x,y,soma;//DeclaraÃ§Ã£o de variaveis
 
-printf("entre com dois números");
+printf("entre com dois nÃºmeros");
 scanf("%d",&x);
 scanf("%d",&y);
 soma=x+y;
