@@ -3,7 +3,7 @@
 
 main()
 {
-    int N,aa,I;//Declaração de variaveis
+    int N,aa,I;//DeclaraÃ§Ã£o de variaveis
 
     printf("Entre com um ano");
     scanf("%d",&N);
@@ -12,7 +12,7 @@ main()
 
     I= aa-N;
 
-    printf("\n A idade desta pessoa é:%d",I);
+    printf("\n A idade desta pessoa Ã©:%d",I);
 
     getch();
 }
