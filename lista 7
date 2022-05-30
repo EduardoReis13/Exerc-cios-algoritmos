@@ -1,0 +1,23 @@
+1-	Pedir para o usuário inserir um numero
+Pedir para inserir outro numero
+Somar os dois inteiros
+Apresentar o resultado da soma
+
+2-	Pedir para o usuário inserir um caractere (char) e depois mostrar no final o que ele inseriu (Nunca esquecer de colocar  “%c” ao usar Char no programa)
+ 
+3-	Colocar 3 caractere (a, b e c) e dizer que  ele pertence a ‘A’,’B’ ou ‘C’. Se ele não pertencer a nenhum dos grupos, dizer “Letra desconhecida”
+
+
+4-	Apresentar 2 números inteiros, somá-los e multiplicar o resultado pelo n1
+
+5-	Pedir para o usuário inserir a temperatura em Celsius e converter em Fahrenheit
+Usar Float (‘%f’)
+Apresentar a temperatura nas duas conversões 
+
+6-	Ler dois números, dividir n1 pelo n2. Se n2 for = 0, exibir que ele eh 0
+
+7-	Pedir para o usuário inserir dois inteiros e após isso verificar se n1, n2 são maiores que 0.
+Se forem > 0: “Os valores são validos”
+Se não for <0: “Os valores são inválidos”
+
+8-	Peça ao usuário para inserir dois números e compare-os e diga qual for o maior entre eles. Printe uma mensagem quando forem valores iguais
