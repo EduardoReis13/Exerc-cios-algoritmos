@@ -2,7 +2,7 @@
 #include<conio.h>
 main()
 {
-    int x,cubo,quadrado;//Declaração de variaveis
+    int x,cubo,quadrado;//DeclaraÃ§Ã£o de variaveis
 
     printf("entre com um numero inteiro");
     scanf("%d",&x);
