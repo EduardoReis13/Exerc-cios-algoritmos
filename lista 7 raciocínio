@@ -21,3 +21,5 @@ Se forem > 0: “Os valores são validos”
 Se não for <0: “Os valores são inválidos”
 
 8-	Peça ao usuário para inserir dois números e compare-os e diga qual for o maior entre eles. Printe uma mensagem quando forem valores iguais
+
+9- pedir para o usuario inserir seu ano de nascimento e exibir se ele podera votar em 2022. Se nao, mostrar quanto tempo ainda falta para ele votar
