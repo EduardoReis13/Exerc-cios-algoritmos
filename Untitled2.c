@@ -1,40 +1,58 @@
-#include <stdio.h>
-
-int main()
+#include<stdio.h>
+main()
 {
-  int idade, sexo;
-  int cont=0;
-  float media, soma;
-  int idade_M=0;
-  int idade_F=0;
-  int soma_F=0;
-  int soma_M=0;
+   int time;
+   int estado;
+   float salario;
+   int cont=0;
+   int media_salarial_botafogo;
+   int soma=0;
+   int op;
+   int cont_botafogo=0;
+   int cont_salarial_botafogo=0;
+   int contFlu;
 
-  do
-  {
-    printf("\nDigite seu sexo.\n 0 para Masculino, 1 para Feminino: ");
-    scanf("%d", &sexo);
 
-    printf("Digite sua idade: ");
-    scanf("%d", &idade);
-
-    if(sexo==1 && idade>=30 && idade<=45)
+        for(cont=0; cont<=2; cont++)
     {
-        soma_F++;
-        idade_F+=idade;
-    }
-    if(sexo==0)
-    {
-        soma_M++;
-        idade_M+=idade;
-    }
-    cont++;
 
-  }while(idade!=0);
-  cont--;
 
-  media=(idade_M+idade_F)/cont;
-  printf("\n\nA media da idade entre as pessoas eh: %.2f \n ", media);
-  printf("A soma total de mulheres entre 30 e 45 anos eh: %d\n", soma_F);
-  printf("A soma total de pessoas masculinas eh: %d\n", soma_M);
+   printf("qual seu time do coracao?\n Digite:\n 1-Fluminense \n 2-Botafogo \n 3-Vasco \n 4-Flamengo \n 5-Outros\n");
+   scanf("%d", &time);
+
+   if(time==2)
+        {
+        cont_botafogo++;
+        printf("Qual seu salario?\n ");
+        scanf("%d", &salario);
+        cont_salarial_botafogo++;
+
+       soma= soma+salario;
+       media_salarial_botafogo= soma/cont_botafogo;
+
+        }
+
+
+
+    }
+
+
+        {
+       printf("Onde voce mora?\n );
+       printf("\n Digite 1 para RJ: \n");
+       printf("\n Digite 2 para Niteroi: \n");
+       printf("\n Digite 3 para outros: \n ");
+       scanf("%d", &estado);
+
+
+
+
+       printf("Qual seu salario?: \n");
+       scanf("%f", &salario);
+       cont++;
+
+        }
+
+        printf("A media salarial dos torcedores do botafogo eh: %d", media_salarial_botafogo)
+
 }
